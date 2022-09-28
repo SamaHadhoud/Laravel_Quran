@@ -40,3 +40,4 @@ Please use and reuse however you want.
 ## Resources
 - Some of the data I obtained from [SalamQuran](from https://github.com/salamquran) and edited.
 - [Eager loading laravel](https://laravel.com/docs/9.x/eloquent-relationships)
+- For arabic numbers I used this package [laravel arabic numbers](https://github.com/alkoumi/laravel-arabic-numbers)
