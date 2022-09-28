@@ -1,0 +1,4 @@
+                        $part1 = "onclick=\"location.href='/{{$row->id}}'\"";
+                        $part2 ='style="cursor: pointer;"';
+                        $output .= "<li class='list-group-item $part1 $part2 >". "$row[__('name')]"" .'</li>';
+                        var_dump($output)

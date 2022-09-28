@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class page extends Model
+{
+    use HasFactory;
+
+    public function surahs()
+    {
+        return $this->belongsToMany(Surah::class,'ar_ayats', 'page_id', 'surah_id');
+    }
+    public function ar_ayats()
+    {
+        return $this->hasMany(Ar_ayat::class);
+    }
+
+}

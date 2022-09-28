@@ -1,0 +1,167 @@
+/* @import url(//db.onlinewebfonts.com/c/17b07c310cc911e2b59238f52b2a3a19?family=Amiri+Quran);
+@font-face {font-family: "Amiri Quran"; src: url("//db.onlinewebfonts.com/t/17b07c310cc911e2b59238f52b2a3a19.eot"); src: url("//db.onlinewebfonts.com/t/17b07c310cc911e2b59238f52b2a3a19.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/17b07c310cc911e2b59238f52b2a3a19.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/17b07c310cc911e2b59238f52b2a3a19.woff") format("woff"), url("//db.onlinewebfonts.com/t/17b07c310cc911e2b59238f52b2a3a19.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/17b07c310cc911e2b59238f52b2a3a19.svg#Amiri Quran") format("svg"); } */
+
+
+body {
+    font-family: "Roboto", sans-serif;
+ }
+
+
+.navbar .navbar-nav .nav-link {
+  color: rgb(232, 232, 232);
+  cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar-toggler{
+    color:black;
+    outline: none;
+    border: none;
+
+}
+.navbar-toggler:focus{
+   box-shadow: none;
+}
+
+
+.landing {
+    min-height: 60vh;
+    width: 100%;
+    background-image:url("/Img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mid{
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+
+  }
+
+ .centerim{
+    height:200px;
+    width:350px;
+    fill: white;
+    align-items: center;
+    justify-content: center;
+    display:block;
+    margin:auto;
+  }
+
+  .bplay{
+    border: none;
+    color:white;
+    flood-color: white;
+  }
+  .bplay:hover,
+  .bplay:focus{
+    background-color: gray !important;
+    border: gray;
+    color:white;
+
+  }
+
+  /* .search{
+    height: 60px;
+    border-radius: 20px;
+  }
+  .search .form-control{
+   border-radius: 20px;
+  }
+ .search .input-group-text{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+
+
+ } */
+
+.form{
+
+    position: relative;
+    margin-top: 20px;
+}
+
+.form .input-select{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+
+}
+/* .form .right-pan .i{
+
+   position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #9ca3af;
+    border: none;
+    cursor: pointer;
+
+} */
+
+.form .search-btn{
+    position: absolute;
+    border: none;
+    right: 25px;
+    top: 30px;
+    color:#2ca4ab;
+    cursor: pointer;
+
+}
+
+.form-input{
+
+    height: 70px;
+    text-indent: 100px;
+    border-radius: 30px;
+}
+
+.swar{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+
+}
+.swar:hover{
+    background-color: white;
+    color: gray;
+    border-radius: 50px;
+
+
+}
+
+.nav-tabs .nav-item .nav-link{
+
+    font-size: 1.25rem;
+    color: black;
+}
+
+.diam {
+
+color: lightgray;
+border-color: lightgray !important;
+color: black;
+}
+.diam:hover{
+
+    color: #2ca4ab;
+    border-color: #2ca4ab;
+
+ }
+
+.num{
+    z-index: 5;
+    color: white;
+}
+
+
